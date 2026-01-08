@@ -1,11 +1,8 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
 # Plugin Name: zoxide
+# Description: Zsh plugin to initialize zoxide shell integration.
 # Repository: https://github.com/johnstonskj/zsh-zoxide-plugin
-#
-# Description:
-#
-#   Zsh plugin to initialize zoxide shell integration.
 #
 # Public variables:
 #
@@ -13,7 +10,8 @@
 #   * `_ALIASES`; a list of all aliases defined by the plugin.
 #   * `_FUNCTIONS`; a list of all functions defined by the plugin.
 #   * `_PLUGIN_DIR`; the directory the plugin is sourced from.
-# * `ZOXIDE_EXAMPLE`; if set it does something magical.
+#   * `_OLD_DATA_DIR`; the previous value of _ZO_DATA_DIR.
+# * `_ZO_DATA_DIR`; set to `${XDG_DATA_HOME}/zoxide`.
 #
 
 ############################################################################
