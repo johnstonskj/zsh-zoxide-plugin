@@ -5,7 +5,7 @@
 #
 # Description:
 #
-#   Add one-line description here...
+#   Zsh plugin to initialize zoxide shell integration.
 #
 # Public variables:
 #
@@ -128,5 +128,7 @@ zoxide_plugin_unload() {
 ############################################################################
 
 zoxide_plugin_init
+
+eval "$(zoxide init zsh)"
 
 true
