@@ -1,8 +1,10 @@
 # -*- mode: sh; eval: (sh-set-shell "zsh") -*-
 #
-# Plugin Name: zoxide
-# Description: Zsh plugin to initialize zoxide shell integration.
-# Repository: https://github.com/johnstonskj/zsh-zoxide-plugin
+# @name: zoxide
+# @brief: Initialize `zoxide` shell integration.
+# @repository: https://github.com/johnstonskj/zsh-zoxide-plugin
+# @version: 0.1.1
+# @license: MIT AND Apache-2.0
 #
 # Public variables:
 #
