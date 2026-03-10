@@ -34,9 +34,3 @@ zoxide_plugin_unload() {
 
     @zplugins_envvar_restore zoxide _ZO_DATA_DIR
 }
-
-############################################################################
-# Initialize Plugin
-############################################################################
-
-eval "$(zoxide init zsh)"
