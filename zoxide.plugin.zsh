@@ -20,7 +20,7 @@ zoxide_plugin_init() {
     builtin emulate -L zsh
 
     @zplugins_envvar_save zoxide _ZO_DATA_DIR
-    export _ZO_DATA_DIR="${XDG_DATA_HOME}/zoxide"
+    typeset -g _ZO_DATA_DIR="${XDG_DATA_HOME}/zoxide"
     if [[ ! -d "${_ZO_DATA_DIR}" ]]; then
         mkdir -p "${_ZO_DATA_DIR}"
     fi
